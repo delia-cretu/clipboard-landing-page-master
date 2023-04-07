@@ -13,8 +13,6 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -48,16 +46,16 @@ Users should be able to:
 
 ### What I learned
 
-```html
+I used HTML markup language consistently throughout my entire code and put a lot of effort into utilising it properly in order to make my code better structured and more accessible.
 
-```
+This is the first time I created media queries for several screen sizes in order to make sure the document remains visually appealing and accessible while sizing down a desktop window as well and not just on a phone. It was a very useful exercise that helped me improve my knowledge of the properties margin, width and max-width.
 
-```css
-
-```
+Lastly, I learned how to modify the color of a SVG element by modifying the HTML SVG property fill to "currentColor" and then using the CSS color property.
 
 ### Continued development
 
+I have much more to learn about building interactive layouts for various screen sizes using concise, non-redundant and well-organized code.
+
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - ...
+- https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element - This resource helped me understand how to change the color of a SVG element.
