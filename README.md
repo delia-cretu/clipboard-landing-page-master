@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/delia-cretu/clipboard-landing-page-master
-- Live Site URL: https://delia-cretu.github.io/fylo-data-storage-component-master/
+- Live Site URL: https://delia-cretu.github.io/clipboard-landing-page-master/
 
 ## My process
 
