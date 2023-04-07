@@ -58,8 +58,8 @@ header img {
 
 .button-iOS,
 .button-Mac {
-  height: 45px;
-  width: 180px;
+  height: 50px;
+  width: 200px;
   border-radius: 30px;
   border: none;
   margin: 20px 5px;
@@ -140,7 +140,7 @@ header img {
 .section1 .text p {
   padding-bottom: 10%;
 }
-/* 
+
 @media (max-width: 600px) {
   .section1 img {
     float: none;
@@ -155,9 +155,13 @@ header img {
   .section1 .text p {
     padding-bottom: 30px;
   }
-} */
+}
 
 /* Main - Section 2*/
+
+.section2 {
+  margin: 200px auto -75px;
+}
 
 @media (max-width: 600px) {
   .section2 img {
