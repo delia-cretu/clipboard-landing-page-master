@@ -37,6 +37,16 @@ header img {
   margin-bottom: 50px;
 }
 
+@media (max-width: 600px) {
+  header {
+    width: 85%;
+    margin: 125px auto;
+  }
+  header .section-header p {
+    margin: 20px auto 40px;
+  }
+}
+
 /* Download Buttons */
 
 .button-iOS,
@@ -75,7 +85,7 @@ header img {
   border-bottom: 3px solid hsl(233, 59%, 56%);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .button-iOS,
   .button-Mac {
     width: 80%;
@@ -96,22 +106,21 @@ header img {
 }
 
 @media (max-width: 750px) {
-  /* body {
-    background-color: red;
-  } */
-  .section-header {
-    margin: 12% auto 5%;
+  section {
+    width: 85%;
+    margin: 125px auto;
   }
   .section-header p {
-    margin: 2% 16%;
+    margin: 20px 0 40px;
+    font-size: 1rem;
   }
 }
 
 /* Main - Section 1*/
 
 .image-computer {
-  width: 52%;
   float: left;
+  width: 52%;
   margin-left: -20px;
 }
 
@@ -125,7 +134,29 @@ header img {
   padding-bottom: 10%;
 }
 
+@media (max-width: 600px) {
+  .section1 img {
+    float: none;
+    width: 100%;
+    margin: 35px 0 75px;
+  }
+  .section1 .text {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .section1 .text p {
+    padding-bottom: 30px;
+  }
+}
+
 /* Main - Section 2*/
+
+@media (max-width: 600px) {
+  .section2 img {
+    width: 100%;
+  }
+}
 
 /* Main - Section 3*/
 
@@ -150,10 +181,29 @@ header img {
   margin: auto 2.5%;
 }
 
+@media (max-width: 600px) {
+  .section3 .section-content {
+    flex-direction: column;
+    margin: 75px 0;
+    font-size: 0.9rem;
+  }
+  .section3 div {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}
+
 /* Main - Section 4*/
 
 .section4 img {
   margin: 2.5%;
+}
+
+@media (max-width: 600px) {
+  .section4 img {
+    display: block;
+    margin: 75px auto;
+  }
 }
 
 /* Main - Section 5*/
