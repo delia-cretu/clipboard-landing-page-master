@@ -1,0 +1,187 @@
+body {
+  background-color: white;
+  background-image: url(images/bg-header-desktop.png);
+  background-position: top right;
+  background-size: 110%;
+  background-repeat: no-repeat;
+
+  max-width: 1000px;
+  margin: auto;
+
+  font-style: normal;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+}
+
+/* Header */
+
+header img {
+  margin-bottom: 40px;
+}
+
+/* Download Buttons */
+
+.button-iOS,
+.button-Mac {
+  height: 40px;
+  width: 160px;
+  border-radius: 20px;
+  border: none;
+  margin: 2% 0.5%;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+.button-iOS {
+  background-color: hsl(171, 66%, 44%);
+  border-bottom: 3px solid hsl(171, 66%, 37%);
+  box-shadow: 0px 3px 10px hsl(171, 66%, 44%);
+}
+
+.button-iOS:hover {
+  background-color: hsl(171, 57%, 57%);
+  border-bottom: 3px solid hsl(171, 66%, 37%);
+}
+
+.button-Mac {
+  background-color: hsl(233, 100%, 69%);
+  border-bottom: 3px solid hsl(233, 59%, 56%);
+  box-shadow: 0px 3px 10px hsl(233, 100%, 69%);
+}
+
+.button-Mac:hover {
+  background-color: hsl(233, 95%, 74%);
+  border-bottom: 3px solid hsl(233, 59%, 56%);
+}
+
+/* Main*/
+
+.section-header {
+  margin: 12% auto 5%;
+}
+
+.section-header p {
+  margin: 2% 18%;
+  font-size: 1rem;
+}
+
+/* Main - Section 1*/
+
+.image-computer {
+  width: 52%;
+  float: left;
+  margin-left: -20px;
+}
+
+.section1 .text {
+  margin: 5% 15% 0 58%;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.section1 .text p {
+  padding-bottom: 10%;
+}
+
+/* Main - Section 2*/
+
+/* Main - Section 3*/
+
+.section3 .section-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  font-size: 0.8rem;
+}
+
+.section3 img {
+  margin: 0;
+}
+
+.section3 h5 {
+  margin: 30px auto 20px;
+}
+
+.section3 div {
+  width: 33.33%;
+  margin: auto 2.5%;
+}
+
+/* Main - Section 4*/
+
+.section4 img {
+  margin: 2.5%;
+}
+
+/* Main - Section 5*/
+
+/* Footer */
+
+footer {
+  background-color: rgb(233, 233, 233);
+  font-size: 0.8rem;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logo {
+  width: 25%;
+}
+
+.footer-logo img {
+  width: 40px;
+}
+
+.footer-links {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.button-links {
+  background-color: transparent;
+  border: none;
+  color: hsl(210, 10%, 33%);
+  font-size: 1rem;
+  text-align: left;
+}
+
+.button-links:hover {
+  background-color: transparent;
+  border: none;
+  color: hsl(171, 66%, 44%);
+}
+
+.button-media {
+  background-color: transparent;
+  border: none;
+}
+
+.button-links:hover {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+}
+
+.footer-media {
+  width: 25%;
+}
