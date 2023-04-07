@@ -34,22 +34,23 @@ p {
 /* Header */
 
 header img {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 /* Download Buttons */
 
 .button-iOS,
 .button-Mac {
-  height: 40px;
-  width: 160px;
-  border-radius: 20px;
+  height: 45px;
+  width: 180px;
+  border-radius: 30px;
   border: none;
-  margin: 2% 0.5%;
+  margin: 20px 5px;
 
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 600;
   color: white;
+  letter-spacing: 0.5px;
 }
 
 .button-iOS {
@@ -74,6 +75,15 @@ header img {
   border-bottom: 3px solid hsl(233, 59%, 56%);
 }
 
+@media (max-width: 400px) {
+  .button-iOS,
+  .button-Mac {
+    width: 80%;
+    margin: 10px 0;
+    box-shadow: none;
+  }
+}
+
 /* Main*/
 
 .section-header {
@@ -83,6 +93,18 @@ header img {
 .section-header p {
   margin: 2% 16%;
   font-size: 1.1rem;
+}
+
+@media (max-width: 750px) {
+  /* body {
+    background-color: red;
+  } */
+  .section-header {
+    margin: 12% auto 5%;
+  }
+  .section-header p {
+    margin: 2% 16%;
+  }
 }
 
 /* Main - Section 1*/
@@ -144,8 +166,8 @@ footer {
   padding: 30px 0;
   display: flex;
   flex-direction: row;
-  padding-left: 170px;
-  padding-right: 170px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .footer-logo {
@@ -162,8 +184,23 @@ footer {
 .footer-links {
   width: 50%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+@media (max-width: 1000px) {
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .footer-links {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    margin-left: 10%;
+  }
 }
 
 .button-links {
@@ -203,4 +240,24 @@ footer {
 
 .footer-media svg:hover {
   color: hsl(171, 66%, 44%);
+}
+
+@media (max-width: 750px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-items: center;
+    align-items: center;
+  }
+  .footer-logo {
+    margin: 15px auto;
+  }
+  .footer-links {
+    margin: 15px auto;
+    justify-items: center;
+  }
+  .footer-media svg {
+    margin: 15px auto 10px;
+  }
 }
