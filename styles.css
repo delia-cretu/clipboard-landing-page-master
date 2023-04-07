@@ -5,13 +5,16 @@ body {
   background-size: 110%;
   background-repeat: no-repeat;
 
-  max-width: 1000px;
-  margin: auto;
-
   font-style: normal;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 1.125rem;
   text-align: center;
+}
+
+header,
+main {
+  max-width: 1000px;
+  margin: auto;
 }
 
 h1,
@@ -78,8 +81,8 @@ header img {
 }
 
 .section-header p {
-  margin: 2% 18%;
-  font-size: 1rem;
+  margin: 2% 16%;
+  font-size: 1.1rem;
 }
 
 /* Main - Section 1*/
@@ -141,14 +144,19 @@ footer {
   padding: 30px 0;
   display: flex;
   flex-direction: row;
+  padding-left: 170px;
+  padding-right: 170px;
 }
 
 .footer-logo {
   width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-logo img {
-  width: 40px;
+  width: 50px;
 }
 
 .footer-links {
@@ -172,16 +180,27 @@ footer {
   color: hsl(171, 66%, 44%);
 }
 
+.footer-media {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .button-media {
   background-color: transparent;
   border: none;
 }
 
-.button-links:hover {
-  background-color: hsl(171, 66%, 44%);
+.button-media:hover {
+  background-color: transparent;
   border: none;
 }
 
-.footer-media {
-  width: 25%;
+.footer-media svg {
+  color: #4c545c;
+}
+
+.footer-media svg:hover {
+  color: hsl(171, 66%, 44%);
 }
