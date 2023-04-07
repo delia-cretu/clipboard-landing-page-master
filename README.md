@@ -27,8 +27,6 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-[FireShot](https://getfireshot.com/)
-
 ### Links
 
 - Solution URL: https://github.com/delia-cretu/clipboard-landing-page-master
@@ -42,11 +40,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 ### What I learned
 
-I used HTML markup language consistently throughout my entire code and put a lot of effort into utilising it properly in order to make my code better structured and more accessible.
+I used HTML5 semantic markup consistently throughout my entire code and put a lot of effort into utilising it properly in order to make my code better structured and more accessible.
 
 This is the first time I created media queries for several screen sizes in order to make sure the document remains visually appealing and accessible while sizing down a desktop window as well and not just on a phone. It was a very useful exercise that helped me improve my knowledge of the properties margin, width and max-width.
 
