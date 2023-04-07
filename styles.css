@@ -11,6 +11,13 @@ body {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  body {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+  }
+}
+
 header,
 main {
   max-width: 1000px;
